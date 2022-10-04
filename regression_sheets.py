@@ -48,7 +48,7 @@ b = np.random.rand(1)
 
 Lr = 0.000001
 
-gc = gspread.service_account(filename='sonic-aria-344013-3a80acbbd350.json')
+gc = gspread.service_account(filename='gamedev-364414-8647bd6528a6.json')
 sh = gc.open("RegressionSheets")
 
 old_loss = 0
